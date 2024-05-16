@@ -1,0 +1,68 @@
+
+
+.dynamic-form {
+width: 600px;
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px black;
+    margin-left: 30px;
+
+}
+
+.dynamic-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.dynamic-form .form-group {
+ 
+}
+
+.dynamic-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.dynamic-form .form-group input,
+.dynamic-form .form-group select,
+
+.dynamic-form .form-group textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.dynamic-form .form-group input[type="checkbox"],
+.dynamic-form .form-group input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.dynamic-form .form-group .options {
+    display: flex;
+    flex-direction: column;
+}
+
+.dynamic-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+.dynamic-form button:hover {
+    background-color: #00b34b;
+}

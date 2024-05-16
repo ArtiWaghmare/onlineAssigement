@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import FormBuilder from './components/FormBuilder';
+import DynamicForm from './components/DynamicForm';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const [formFields, setFormFields] = useState([]);
+    const [formData, setFormData] = useState(null);
+
+    return (
+        <div className="App">
+            <h1>Student Information</h1>
+            <div style={{display:"flex",margin:" 20px auto"}}>   <FormBuilder formFields={formFields} setFormFields={setFormFields} />
+            <DynamicForm formFields={formFields} setFormData={setFormData} /></div>
+            {/* {formData && (
+                // {JSON.stringify(formData, null, 2)}
+            )} */}
+        </div>
+    );
+};
 
 export default App;

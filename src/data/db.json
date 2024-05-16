@@ -1,0 +1,15 @@
+{
+  "student": [
+    {
+      "id": "d4b1",
+      "Email": "Aru@gmail.com",
+      "FirstName": "Aru",
+      "LastName": "Wagh",
+      "Hobbi": [
+        "Write"
+      ],
+      "Gender": "Female",
+      "Address": "Pune"
+    }
+  ]
+}

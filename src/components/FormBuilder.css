@@ -1,0 +1,139 @@
+/* FormBuilder.css */
+
+.form-builder {
+    max-width: 800px;
+margin-left: 200px;
+margin-right: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px black;
+    font-family: Arial, sans-serif; /* Change font family if needed */
+}
+
+.form-builder h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-builder .form-group {
+    margin-bottom: 15px;
+}
+
+.form-builder .form-group input[type="text"],
+.form-builder .form-group input[type="email"],
+.form-builder .form-group input[type="tel"],
+.form-builder .form-group select,
+.form-builder .form-group button,
+.form-builder .form-group input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-builder .form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-builder .form-group input[type="checkbox"] + label {
+    font-size: 16px;
+}
+
+.form-builder .form-group > div {
+    margin-bottom: 10px;
+}
+
+.form-builder .form-group > div input[type="text"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-builder .form-group > div input[type="text"]:first-child {
+    margin-right: 10px;
+}
+
+.form-builder .form-group button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-builder .form-group button:hover {
+    background-color: #0056b3;
+}
+
+.form-builder .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-builder .form-actions button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-builder .form-actions button:hover {
+    background-color: #218838;
+}
+
+.form-builder .form-actions input[type="file"] {
+    display: none;
+}
+
+.form-builder ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.form-builder ul li {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-builder ul li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-builder ul li button:hover {
+    background-color: #c82333;
+}
+
+.form-builder ul li div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-builder ul li div span {
+    margin-right: 10px;
+}

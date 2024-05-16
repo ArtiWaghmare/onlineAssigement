@@ -1,0 +1,64 @@
+
+
+.field-container {
+    margin-bottom: 20px;
+}
+
+.field-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.field-container input[type="text"],
+.field-container textarea,
+.field-container select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.field-container textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.field-container input[type="checkbox"],
+.field-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+.field-container .checkbox-group,
+.field-container .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.field-container .checkbox-group label,
+.field-container .radio-group label {
+    display: flex;
+    align-items: center;
+}
+
+.field-container .checkbox-group input[type="checkbox"],
+.field-container .radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+/* Field.css */
+
+/* Add this section to increase the width of the email and phone input boxes */
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 20px); /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Add any additional styling as needed */
