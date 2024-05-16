@@ -11,9 +11,7 @@ const App = () => {
             <h1>Student Information</h1>
             <div style={{display:"flex",margin:" 20px auto"}}>   <FormBuilder formFields={formFields} setFormFields={setFormFields} />
             <DynamicForm formFields={formFields} setFormData={setFormData} /></div>
-            {/* {formData && (
-                // {JSON.stringify(formData, null, 2)}
-            )} */}
+           
         </div>
     );
 };

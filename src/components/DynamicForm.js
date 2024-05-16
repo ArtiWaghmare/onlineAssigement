@@ -1,4 +1,4 @@
-/** @format */
+
 
 import React, { useState } from "react";
 import Field from "./Field";
@@ -13,7 +13,7 @@ const DynamicForm = ({ formFields, setFormData }) => {
       ...values,
       [name]: value,
     });
-    // Clear error message if field is filled out
+    
     if (errors[name]) {
       setErrors({
         ...errors,
@@ -66,7 +66,7 @@ const DynamicForm = ({ formFields, setFormData }) => {
 
     if (valid) {
       try {
-        const response = await fetch("http://localhost:8000/student", {
+        const response = await fetch("http://localhost:5000/student", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

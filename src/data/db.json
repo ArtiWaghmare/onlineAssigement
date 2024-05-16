@@ -1,15 +1,28 @@
 {
   "student": [
     {
-      "id": "d4b1",
-      "Email": "Aru@gmail.com",
-      "FirstName": "Aru",
-      "LastName": "Wagh",
-      "Hobbi": [
-        "Write"
-      ],
+      "id": "6ae1",
+      "First Name": "Art",
+      "Last Name": "wa",
+      "Email": "art@gmail.com",
+      "Phone Number": "1234567890",
+      "Subject": "English",
       "Gender": "Female",
-      "Address": "Pune"
+      "Hobbies": [
+        "write"
+      ]
+    },
+    {
+      "id": "7b2c",
+      "First Name": "aarsr",
+      "Last Name": "dsvgz",
+      "Email": "zg@gmail.com",
+      "Phone Number": "8605722268",
+      "Subject": "Science",
+      "Gender": "Female",
+      "Hobbies": [
+        "write"
+      ]
     }
   ]
 }

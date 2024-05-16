@@ -1,4 +1,4 @@
-/* FormBuilder.css */
+
 
 .form-builder {
     max-width: 800px;
@@ -9,7 +9,7 @@ margin-right: 100px;
     border-radius: 8px;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px black;
-    font-family: Arial, sans-serif; /* Change font family if needed */
+    font-family: Arial, sans-serif; 
 }
 
 .form-builder h3 {
@@ -136,4 +136,14 @@ margin-right: 100px;
 
 .form-builder ul li div span {
     margin-right: 10px;
+}
+@media (min-width: 600px) {
+    .form-group input,
+    .form-group select {
+        flex: 1 1 48%;
+    }
+
+    .form-group button {
+        flex: 1 1 100%;
+    }
 }

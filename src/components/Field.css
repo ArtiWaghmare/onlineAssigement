@@ -48,12 +48,10 @@
 .field-container .radio-group input[type="radio"] {
     margin-right: 5px;
 }
-/* Field.css */
 
-/* Add this section to increase the width of the email and phone input boxes */
 input[type="email"],
 input[type="tel"] {
-    width: calc(100% - 20px); /* Adjust width as needed */
+    width: calc(100% - 20px); 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -61,4 +59,4 @@ input[type="tel"] {
     margin-bottom: 10px;
 }
 
-/* Add any additional styling as needed */
+
